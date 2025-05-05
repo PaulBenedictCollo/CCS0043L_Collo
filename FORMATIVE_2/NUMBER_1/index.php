@@ -9,9 +9,9 @@
 </form>
     <?php
     $numbers = [];
-    for ($i = 0; $i < 15; $i++) {
+    for ($i = 0; $i < 15; $i++) (
         $numbers[] = rand(1,100);
-    }
+    )
 
     $max = max($numbers);
     $min = min($numbers);
@@ -24,5 +24,6 @@
     echo "Sum of all Numbers: $sum <br>";
     echo "Average of all Numbers: $average <br>"; 
     ?>
+    
 </body>
 </html>
